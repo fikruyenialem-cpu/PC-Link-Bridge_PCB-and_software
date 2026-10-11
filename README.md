@@ -10,7 +10,7 @@
 
 ## 1. Project Purpose
 
-This project provides a production-grade, manufacturable hardware solution to bridge two personal computers (PC A and PC B) through standard USB Type-A ports. It enables bidirectional high-speed file transfer up to USB 2.0 High-Speed signaling (480 Mbps) while maintaining strict, hardware-enforced electrical power isolation between the two host computers.
+this project provides a production grade, manufacturable hardware solution to bridge two personal computers (PC A and PC B) through standard USB Type-A ports. It enables bidirectional high-speed file transfer up to USB 2.0 High-Speed signaling (480 Mbps) while maintaining strict, hardware-enforced electrical power isolation between the two host computers.
 
 ---
 
