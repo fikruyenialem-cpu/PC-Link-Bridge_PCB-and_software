@@ -1,0 +1,21 @@
+Item,Reference,Qty,Value,Description,Manufacturer,Manufacturer Part Number,Package / Footprint,Distributor Link
+1,U1,1,RP2040,"Dual ARM Cortex-M0+ MCU @ 133MHz, 264KB SRAM, Dual PIO",Raspberry Pi Ltd,RP2040,"QFN-56-1EP (7x7mm, 0.4mm pitch)",https://www.digikey.com/en/products/detail/raspberry-pi/SC0914/14306004
+2,"U2, U3",2,FT232HL,Hi-Speed USB 2.0 (480Mbps) to Multipurpose FIFO IC,FTDI Chip,FT232HL-REEL,"LQFP-48 (7x7mm, 0.5mm pitch)",https://www.mouser.com/ProductDetail/FTDI/FT232HL-Reel?qs=GpZaDKDY9590B2YqM7%2FXFA%3D%3D
+3,"U4, U5",2,93LC56BT-I/OT,2Kbit Microwire Serial Configuration EEPROM,Microchip Technology,93LC56BT-I/OT,SOT-23-6,https://www.microchip.com/en-us/product/93LC56B
+4,U6,1,W25Q128JVSIQ,128M-bit (16MB) Dual/Quad SPI NOR Flash,Winbond Electronics,W25Q128JVSIQ,SOIC-8 (208 mil),https://www.winbond.com/hq/product/code-storage-flash-memory/serial-nor-flash/?__locale=en&partNo=W25Q128JV
+5,U7,1,AP2112K-3.3TRG1,"600mA Low Dropout Linear Regulator, 3.3V Fixed",Diodes Incorporated,AP2112K-3.3TRG1,SOT-23-5,https://www.diodes.com/products/power-management/linear-regulators/standard-ldos/part/AP2112K-3.3
+6,"U8, U9",2,INA219AIDR,Bidirectional I2C Current and Power Monitor IC,Texas Instruments,INA219AIDR,SOIC-8,https://www.ti.com/product/INA219
+7,"D1, D2",2,"PMEG3020EP,115",30V 2A Ultra-Low VF Schottky Barrier Rectifier,Nexperia,"PMEG3020EP,115",SOD-128,https://www.nexperia.com/products/diodes/schottky-diodes-and-rectifiers/PMEG3020EP.html
+8,"D3, D4",2,USBLC6-2SC6,Very Low Capacitance Dual ESD Protection Array,STMicroelectronics,USBLC6-2SC6,SOT-23-6,https://www.st.com/en/protection-devices/usblc6-2.html
+9,"J1, J2",2,GSB19111KEU,USB 2.0 Type-A Female Receptacle Horizontal R/A,Amphenol Commercial,GSB19111KEU,Through-Hole with Board-Locks,https://www.amphenol-cs.com/usb-type-a-gsb19111keu.html
+10,"Y1, Y2, Y3",3,12.000MHz,12.000 MHz Crystal Oscillator ±20ppm 18pF,Abracon LLC,ABM8-12.000MHZ-B2-T,SMD 3.2x2.5mm 4-pad,https://abracon.com/Resonators/abm8.pdf
+11,"R_SH1, R_SH2",2,0.10 Ohm,Current Sense Resistor 0.10 Ohm 1% 1/2W,Vishay Dale,WSL1206R1000FEA,SMD 1206,https://www.vishay.com/docs/30100/wsl.pdf
+12,"R1, R2",2,12.0k Ohm,Precision Reference Resistor 12.0k 1% 1/10W,Yageo,RC0603FR-0712KL,SMD 0603,https://www.yageo.com/
+13,R3..R10,8,4.7k / 10k,I2C Pull-ups & Control Line Biasing 1%,Yageo,RC0603FR-074K7L,SMD 0603,https://www.yageo.com/
+14,C1..C16,16,100nF,Ceramic Decoupling Capacitor 50V X7R 10%,Murata,GRM188R71H104KA93D,SMD 0603,https://www.murata.com/
+15,C17..C22,6,4.7uF,Bulk Decoupling Capacitor 16V X5R 20%,Murata,GRM188R61C475KAAJD,SMD 0603,https://www.murata.com/
+16,C23..C28,6,27pF,Crystal Load Capacitor 50V C0G/NP0 5%,Murata,GRM1885C1H270JA01D,SMD 0603,https://www.murata.com/
+17,"FB1, FB2",2,Ferrite Bead,High-frequency VBUS EMI Filter Bead 600 Ohm @ 100MHz 2A,Würth Elektronik,742792651,SMD 0805,https://www.we-online.com/
+18,LED1..LED5,5,LED_0805,"Status LEDs (Green, Blue x2, Amber, Red)",Kingbright,APT2012SGC / APT2012QBC,SMD 0805,https://www.kingbright.com/
+19,"SW1, SW2",2,Tactile Switch,BOOTSEL / RESET SPST Momentary Tactile Switch,C&K / Littelfuse,PTS645SL43-2 LFS,SMD 6x6mm,https://www.ckswitches.com/
+20,J3,1,PinHeader 1x04,SWD Debug Header 2.54mm Pitch Vertical,Samtec,TSW-104-07-G-S,Through-Hole 1x04 2.54mm,https://www.samtec.com/

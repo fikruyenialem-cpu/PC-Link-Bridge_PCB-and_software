@@ -1,0 +1,241 @@
+** Drc report for pc-usb-bridge.kicad_pcb **
+** Created on 2026-10-10T22:25:58 **
+** Report includes: Errors, Warnings **
+
+** Found 39 DRC violations **
+[tracks_crossing]: Tracks crossing
+    Rule: netclass 'Default'; error
+    @(101.0000 mm, 41.5000 mm): Track [USB_B_DM] on F.Cu, length 12.7525 mm
+    @(101.0000 mm, 39.0000 mm): Track [VBUS_B] on F.Cu, length 27.9614 mm
+[tracks_crossing]: Tracks crossing
+    Rule: netclass 'Default'; error
+    @(46.2000 mm, 56.0000 mm): Track [VBUS_OR] on F.Cu, length 15.4093 mm
+    @(24.0000 mm, 39.0000 mm): Track [VBUS_A] on F.Cu, length 30.8972 mm
+[shorting_items]: Items shorting two nets (nets VBUS_OR and VBUS_A)
+    Local override; error
+    @(46.2000 mm, 56.0000 mm): Track [VBUS_OR] on F.Cu, length 15.4093 mm
+    @(49.8000 mm, 56.0000 mm): Pad 2 [VBUS_A] of D1 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1500 mm)
+    Rule: netclass 'Default'; error
+    @(101.0000 mm, 41.5000 mm): Track [USB_B_DM] on F.Cu, length 12.7525 mm
+    @(101.0000 mm, 43.5000 mm): Track [USB_B_DP] on F.Cu, length 12.8111 mm
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1750 mm)
+    Rule: netclass 'Default'; error
+    @(24.0000 mm, 43.5000 mm): Track [USB_A_DP] on F.Cu, length 12.8111 mm
+    @(36.7500 mm, 41.7500 mm): Pad 7 [USB_A_DM] of U2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1750 mm)
+    Rule: netclass 'Default'; error
+    @(24.0000 mm, 41.5000 mm): Track [USB_A_DM] on F.Cu, length 12.7525 mm
+    @(36.7500 mm, 42.2500 mm): Pad 8 [USB_A_DP] of U2 on F.Cu
+[clearance]: Clearance violation (netclass 'Default' clearance 0.2000 mm; actual 0.1750 mm)
+    Rule: netclass 'Default'; error
+    @(88.2500 mm, 42.2500 mm): Pad 8 [USB_B_DP] of U3 on F.Cu
+    @(101.0000 mm, 41.5000 mm): Track [USB_B_DM] on F.Cu, length 12.7525 mm
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; error
+    @(46.2000 mm, 56.0000 mm): Track [VBUS_OR] on F.Cu, length 15.4093 mm
+    @(49.8000 mm, 56.0000 mm): Pad 2 [VBUS_A] of D1 on F.Cu
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(24.0000 mm, 41.5000 mm): Track [USB_A_DM] on F.Cu, length 12.7525 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(24.0000 mm, 43.5000 mm): Track [USB_A_DP] on F.Cu, length 12.8111 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(101.0000 mm, 41.5000 mm): Track [USB_B_DM] on F.Cu, length 12.7525 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(101.0000 mm, 43.5000 mm): Track [USB_B_DP] on F.Cu, length 12.8111 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(24.0000 mm, 39.0000 mm): Track [VBUS_A] on F.Cu, length 30.8972 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(101.0000 mm, 39.0000 mm): Track [VBUS_B] on F.Cu, length 27.9614 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(75.2000 mm, 56.0000 mm): Track [VBUS_OR] on F.Cu, length 11.8273 mm
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; warning
+    @(23.5000 mm, 23.5000 mm): Footprint <no reference designator>
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; warning
+    @(101.5000 mm, 23.5000 mm): Footprint <no reference designator>
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; warning
+    @(23.5000 mm, 61.5000 mm): Footprint <no reference designator>
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; warning
+    @(101.5000 mm, 61.5000 mm): Footprint <no reference designator>
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; warning
+    @(24.0000 mm, 42.5000 mm): Footprint J1
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; warning
+    @(101.0000 mm, 42.5000 mm): Footprint J2
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; warning
+    @(41.0000 mm, 42.5000 mm): Footprint U2
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; warning
+    @(84.0000 mm, 42.5000 mm): Footprint U3
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; warning
+    @(62.5000 mm, 42.5000 mm): Footprint U1
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; warning
+    @(62.5000 mm, 56.0000 mm): Footprint U7
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; warning
+    @(48.0000 mm, 56.0000 mm): Footprint D1
+[missing_courtyard]: Footprint has no courtyard defined
+    Local override; warning
+    @(77.0000 mm, 56.0000 mm): Footprint D2
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.7mm_M2.5' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(23.5000 mm, 23.5000 mm): Footprint <no reference designator>
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.7mm_M2.5' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(101.5000 mm, 23.5000 mm): Footprint <no reference designator>
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.7mm_M2.5' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(23.5000 mm, 61.5000 mm): Footprint <no reference designator>
+[lib_footprint_mismatch]: Footprint 'MountingHole_2.7mm_M2.5' does not match copy in library 'MountingHole'
+    Local override; warning
+    @(101.5000 mm, 61.5000 mm): Footprint <no reference designator>
+[lib_footprint_mismatch]: Footprint 'USB_A_Molex_67643_Horizontal' does not match copy in library 'Connector_USB'
+    Local override; warning
+    @(24.0000 mm, 42.5000 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'USB_A_Molex_67643_Horizontal' does not match copy in library 'Connector_USB'
+    Local override; warning
+    @(101.0000 mm, 42.5000 mm): Footprint J2
+[lib_footprint_mismatch]: Footprint 'LQFP-48_7x7mm_P0.5mm' does not match copy in library 'Package_QFP'
+    Local override; warning
+    @(41.0000 mm, 42.5000 mm): Footprint U2
+[lib_footprint_mismatch]: Footprint 'LQFP-48_7x7mm_P0.5mm' does not match copy in library 'Package_QFP'
+    Local override; warning
+    @(84.0000 mm, 42.5000 mm): Footprint U3
+[lib_footprint_mismatch]: Footprint 'QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm' does not match copy in library 'Package_DFN_QFN'
+    Local override; warning
+    @(62.5000 mm, 42.5000 mm): Footprint U1
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library 'Package_TO_SOT_SMD'
+    Local override; warning
+    @(62.5000 mm, 56.0000 mm): Footprint U7
+[lib_footprint_mismatch]: Footprint 'D_SOD-128' does not match copy in library 'Diode_SMD'
+    Local override; warning
+    @(48.0000 mm, 56.0000 mm): Footprint D1
+[lib_footprint_mismatch]: Footprint 'D_SOD-128' does not match copy in library 'Diode_SMD'
+    Local override; warning
+    @(77.0000 mm, 56.0000 mm): Footprint D2
+
+** Found 25 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(22.5000 mm, 39.0000 mm): PTH pad 4 [GND] of J1
+    @(24.0000 mm, 49.0000 mm): PTH pad SH1 [GND] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(24.0000 mm, 36.0000 mm): PTH pad SH2 [GND] of J1
+    @(22.5000 mm, 39.0000 mm): PTH pad 4 [GND] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.7500 mm, 43.2500 mm): Pad 10 [GND] of U2 on F.Cu
+    @(45.2500 mm, 45.2500 mm): Pad 25 [GND] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.7500 mm, 43.2500 mm): Pad 10 [GND] of U2 on F.Cu
+    @(24.0000 mm, 49.0000 mm): PTH pad SH1 [GND] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(62.5000 mm, 42.5000 mm): Pad 57 [GND] of U1 on F.Cu
+    @(63.5000 mm, 45.9000 mm): Pad 19 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(62.5000 mm, 42.5000 mm): Pad 57 [GND] of U1 on F.Cu
+    @(45.2500 mm, 45.2500 mm): Pad 25 [GND] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(62.5000 mm, 54.6500 mm): Pad 2 [GND] of U7 on F.Cu
+    @(63.5000 mm, 45.9000 mm): Pad 19 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(79.7500 mm, 39.7500 mm): Pad 25 [GND] of U3 on F.Cu
+    @(63.5000 mm, 45.9000 mm): Pad 19 [GND] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(88.2500 mm, 43.2500 mm): Pad 10 [GND] of U3 on F.Cu
+    @(79.7500 mm, 39.7500 mm): Pad 25 [GND] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(88.2500 mm, 43.2500 mm): Pad 10 [GND] of U3 on F.Cu
+    @(101.0000 mm, 49.0000 mm): PTH pad SH2 [GND] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.0000 mm, 49.0000 mm): PTH pad SH2 [GND] of J2
+    @(102.5000 mm, 46.0000 mm): PTH pad 4 [GND] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.5000 mm, 46.0000 mm): PTH pad 4 [GND] of J2
+    @(101.0000 mm, 36.0000 mm): PTH pad SH1 [GND] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(36.7500 mm, 39.7500 mm): Pad 1 [+3V3] of U2 on F.Cu
+    @(38.2500 mm, 46.7500 mm): Pad 13 [+3V3] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(59.1000 mm, 39.9000 mm): Pad 1 [+3V3] of U1 on F.Cu
+    @(61.5500 mm, 57.3500 mm): Pad 5 [+3V3] of U7 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(59.1000 mm, 39.9000 mm): Pad 1 [+3V3] of U1 on F.Cu
+    @(38.2500 mm, 46.7500 mm): Pad 13 [+3V3] of U2 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(64.7000 mm, 39.1000 mm): Pad 44 [+3V3] of U1 on F.Cu
+    @(59.1000 mm, 39.9000 mm): Pad 1 [+3V3] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.7500 mm, 46.7500 mm): Pad 13 [+3V3] of U3 on F.Cu
+    @(88.2500 mm, 45.2500 mm): Pad 1 [+3V3] of U3 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(86.7500 mm, 46.7500 mm): Pad 13 [+3V3] of U3 on F.Cu
+    @(64.7000 mm, 39.1000 mm): Pad 44 [+3V3] of U1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(24.0000 mm, 39.0000 mm): Track [VBUS_A] on F.Cu, length 30.8972 mm
+    @(22.5000 mm, 46.0000 mm): PTH pad 1 [VBUS_A] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.5000 mm, 39.0000 mm): PTH pad 1 [VBUS_B] of J2
+    @(101.0000 mm, 39.0000 mm): Track [VBUS_B] on F.Cu, length 27.9614 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(75.2000 mm, 56.0000 mm): Track [VBUS_OR] on F.Cu, length 11.8273 mm
+    @(46.2000 mm, 56.0000 mm): Track [VBUS_OR] on F.Cu, length 15.4093 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(22.5000 mm, 41.5000 mm): PTH pad 3 [USB_A_DP] of J1
+    @(24.0000 mm, 43.5000 mm): Track [USB_A_DP] on F.Cu, length 12.8111 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(24.0000 mm, 41.5000 mm): Track [USB_A_DM] on F.Cu, length 12.7525 mm
+    @(22.5000 mm, 43.5000 mm): PTH pad 2 [USB_A_DM] of J1
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.0000 mm, 43.5000 mm): Track [USB_B_DP] on F.Cu, length 12.8111 mm
+    @(102.5000 mm, 43.5000 mm): PTH pad 3 [USB_B_DP] of J2
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(102.5000 mm, 41.5000 mm): PTH pad 2 [USB_B_DM] of J2
+    @(101.0000 mm, 41.5000 mm): Track [USB_B_DM] on F.Cu, length 12.7525 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+
+** End of Report **

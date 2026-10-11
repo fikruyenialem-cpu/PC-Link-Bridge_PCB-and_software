@@ -1,0 +1,10 @@
+{
+  "local_role": "PC A",
+  "connection_mode": "virtual",
+  "serial_port": "AUTO",
+  "baud_rate": 115200,
+  "download_dir": "C:\\Users\\Administrator\\Downloads\\PC_Link_Transfers",
+  "auto_connect": true,
+  "chunk_size": 4096,
+  "log_level": "INFO"
+}
