@@ -1,4 +1,4 @@
-# Dual USB-A PC-to-PC High-Speed Data Bridge & Power Management
+# Dual USB-A PC-to-PC High-Speed Data Bridge and Power Management
 
 **Hardware Revision**: v1.0  
 **Author**: Hardware Systems Engineering Team  
